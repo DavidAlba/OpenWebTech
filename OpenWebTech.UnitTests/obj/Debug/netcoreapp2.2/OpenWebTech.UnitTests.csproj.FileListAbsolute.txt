@@ -1,0 +1,17 @@
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.UnitTests.deps.json
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.UnitTests.runtimeconfig.json
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.UnitTests.runtimeconfig.dev.json
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.UnitTests.dll
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.UnitTests.pdb
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.dll
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\bin\Debug\netcoreapp2.2\OpenWebTech.pdb
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.csprojAssemblyReference.cache
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.AssemblyInfo.cs
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.csproj.CopyComplete
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.dll
+C:\Users\david\source\repos\OpenWebTech\OpenWebTech.UnitTests\obj\Debug\netcoreapp2.2\OpenWebTech.UnitTests.pdb
