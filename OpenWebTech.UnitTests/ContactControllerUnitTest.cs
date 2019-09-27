@@ -22,11 +22,11 @@ namespace OpenWebTech.UnitTests
         {
             // Arrange
             var mock = new Mock<IContactsRepository>();
-            mock.Setup(rep => rep.retrieveontactAsync(It.IsAny<int>())).Returns(Task<Contact>.Run(() => { return default(Contact); }));
+            mock.Setup(rep => rep.retrieveContactAsync(It.IsAny<int>())).Returns(Task<Contact>.Run(() => { return default(Contact); }));
             ContactsController controller = new ContactsController(mock.Object);
 
             // Act
-            NotFoundResult model = await controller.getContact(It.IsAny<int>()) as NotFoundResult;
+            NotFoundResult model = await controller.retrieveContact(It.IsAny<int>()) as NotFoundResult;
 
             // Assert            
             Assert.Equal((int?)HttpStatusCode.NotFound, model.StatusCode);
@@ -39,11 +39,11 @@ namespace OpenWebTech.UnitTests
             // Arrange
             var contactToFind = contacts.SingleOrDefault<Contact>((m) => m.Id == 2);
             var mock = new Mock<IContactsRepository>();
-            mock.SetupSequence(rep => rep.retrieveontactAsync(It.IsAny<int>())).Returns(Task<Contact>.Run(() => contactToFind));
+            mock.SetupSequence(rep => rep.retrieveContactAsync(It.IsAny<int>())).Returns(Task<Contact>.Run(() => contactToFind));
             ContactsController controller = new ContactsController(mock.Object);
 
             // Act            
-            OkObjectResult model = await controller.getContact(contactToFind.Id) as OkObjectResult;
+            OkObjectResult model = await controller.retrieveContact(contactToFind.Id) as OkObjectResult;
 
             // Assert   
             Assert.Equal((int?)HttpStatusCode.OK, model.StatusCode);
@@ -55,11 +55,11 @@ namespace OpenWebTech.UnitTests
         {
             // Arrange
             var mock = new Mock<IContactsRepository>();
-            mock.Setup(rep => rep.retrieveontactAsync(It.IsAny<int>())).Throws<NotFoundBusinessEntityException>();
+            mock.Setup(rep => rep.retrieveContactAsync(It.IsAny<int>())).Throws<NotFoundBusinessEntityException>();
             ContactsController controller = new ContactsController(mock.Object);
 
             // Act           
-            Exception ex = await Assert.ThrowsAsync<NotFoundBusinessEntityException>(async () => await controller.getContact(It.IsAny<int>()));
+            Exception ex = await Assert.ThrowsAsync<NotFoundBusinessEntityException>(async () => await controller.retrieveContact(It.IsAny<int>()));
 
             // Assert
             Assert.Equal(expected: typeof(NotFoundBusinessEntityException), actual: ex.GetType());
@@ -80,7 +80,7 @@ namespace OpenWebTech.UnitTests
             var mock = new Mock<IContactsRepository>();
 
             ContactsController controller = new ContactsController(mock.Object);
-            mock.SetupSequence(rep => rep.retrieveontactAsync(It.IsAny<int>())).Returns(Task<Contact>.Run(() => default(Contact)));
+            mock.SetupSequence(rep => rep.retrieveContactAsync(It.IsAny<int>())).Returns(Task<Contact>.Run(() => default(Contact)));
             mock.SetupSequence(rep => rep.createContactAsync(contactCreated)).Returns(Task<Contact>.Run(() => contactCreated));
 
             // Act            

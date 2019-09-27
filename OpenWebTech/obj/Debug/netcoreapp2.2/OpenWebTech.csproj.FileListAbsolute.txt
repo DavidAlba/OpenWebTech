@@ -12,3 +12,17 @@ C:\Users\david\source\repos\OpenWebTech\OpenWebTech\obj\Debug\netcoreapp2.2\Open
 C:\Users\david\source\repos\OpenWebTech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.RazorTargetAssemblyInfo.cache
 C:\Users\david\source\repos\OpenWebTech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.dll
 C:\Users\david\source\repos\OpenWebTech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.pdb
+C:\dev\code\net\openwebtech\OpenWebTech\bin\Debug\netcoreapp2.2\OpenWebTech.deps.json
+C:\dev\code\net\openwebtech\OpenWebTech\bin\Debug\netcoreapp2.2\OpenWebTech.runtimeconfig.json
+C:\dev\code\net\openwebtech\OpenWebTech\bin\Debug\netcoreapp2.2\OpenWebTech.runtimeconfig.dev.json
+C:\dev\code\net\openwebtech\OpenWebTech\bin\Debug\netcoreapp2.2\OpenWebTech.dll
+C:\dev\code\net\openwebtech\OpenWebTech\bin\Debug\netcoreapp2.2\OpenWebTech.pdb
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.csprojAssemblyReference.cache
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.csproj.CoreCompileInputs.cache
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.RazorAssemblyInfo.cache
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.RazorAssemblyInfo.cs
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.AssemblyInfoInputs.cache
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.AssemblyInfo.cs
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.RazorTargetAssemblyInfo.cache
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.dll
+C:\dev\code\net\openwebtech\OpenWebTech\obj\Debug\netcoreapp2.2\OpenWebTech.pdb

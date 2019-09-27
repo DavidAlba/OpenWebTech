@@ -14827,11 +14827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech.UnitTests\\OpenWebTech.UnitTests.csproj",
+      "projectUniqueName": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech.UnitTests\\OpenWebTech.UnitTests.csproj",
       "projectName": "OpenWebTech.UnitTests",
-      "projectPath": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech.UnitTests\\OpenWebTech.UnitTests.csproj",
+      "projectPath": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech.UnitTests\\OpenWebTech.UnitTests.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech.UnitTests\\obj\\",
+      "outputPath": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14850,8 +14850,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech\\OpenWebTech.csproj": {
-              "projectPath": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech\\OpenWebTech.csproj"
+            "C:\\dev\\code\\net\\openwebtech\\OpenWebTech\\OpenWebTech.csproj": {
+              "projectPath": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech\\OpenWebTech.csproj"
             }
           }
         }

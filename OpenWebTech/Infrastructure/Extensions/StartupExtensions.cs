@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using OpenWebTech.Infrastructure.Filters;
 using OpenWebTech.Models;
+using WebMVC.Infrastructure.Claims;
 
 namespace OpenWebTech.Infrastructure.Extensions
 {
@@ -78,5 +80,16 @@ namespace OpenWebTech.Infrastructure.Extensions
 
             return services;
         }
+
+        public static IServiceCollection AddCustomSecurity(this IServiceCollection services, IHostingEnvironment environment, ILogger logger)
+        {
+            logger.LogInformation($"Adding Security ({environment.ApplicationName})...");
+
+            //services.AddSingleton<IClaimsTransformation, ContactClaimsProvider>();
+           
+
+            return services;
+        }
+
     }
 }

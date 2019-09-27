@@ -13162,11 +13162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech\\OpenWebTech.csproj",
+      "projectUniqueName": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech\\OpenWebTech.csproj",
       "projectName": "OpenWebTech",
-      "projectPath": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech\\OpenWebTech.csproj",
+      "projectPath": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech\\OpenWebTech.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\source\\repos\\OpenWebTech\\OpenWebTech\\obj\\",
+      "outputPath": "C:\\dev\\code\\net\\openwebtech\\OpenWebTech\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

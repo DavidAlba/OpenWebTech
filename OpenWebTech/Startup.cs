@@ -33,7 +33,8 @@ namespace OpenWebTech
         {
             services.AddCustomSwagger(_environment, _logger)
                 .AddCustomRepository(_environment, _logger)
-                .AddCustomMVC(_environment, _logger);
+                .AddCustomMVC(_environment, _logger)
+                .AddCustomSecurity(_environment, _logger);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

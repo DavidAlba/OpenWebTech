@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenWebTech.Models
 {
-    public class Contact
+    public class Contact // : IdentityUser
     {        
 
         [Range(1, int.MaxValue, ErrorMessage = "The id must be greater than 0")]
